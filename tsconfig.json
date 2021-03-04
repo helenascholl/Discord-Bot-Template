@@ -1,5 +1,4 @@
 {
-  "compileOnSave": true,
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
@@ -10,7 +9,6 @@
     "noImplicitReturns": true,
     "allowJs": false,
     "removeComments": true,
-    "listFiles": true,
     "forceConsistentCasingInFileNames": true
   }
 }
