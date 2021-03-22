@@ -1,5 +1,5 @@
-import * as Discord from 'discord.js';
-import * as dotenv from 'dotenv';
+import Discord from 'discord.js';
+import dotenv from 'dotenv';
 
 dotenv.config();
 
