@@ -3,7 +3,7 @@ version: '3.7'
 services:
   your-bot:
     build: .
-    restart: always
+    restart: unless-stopped
     environment:
       NODE_ENV: production
     volumes:
