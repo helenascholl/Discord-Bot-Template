@@ -15,7 +15,7 @@ const rest = new REST({ version: '9' }).setToken(token);
 const client = new Client({ intents: [ Intents.FLAGS.GUILDS ] });
 
 client.on('ready', client => {
-  console.log(`Logged in as ${client.user.tag}!`);
+  console.log(`Logged in as ${client.user.tag}`);
 
   client.guilds.cache.forEach(guild => {
     rest.put(Routes.applicationGuildCommands(client.user.id, guild.id), { body: commands })
