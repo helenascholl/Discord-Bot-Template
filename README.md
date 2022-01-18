@@ -34,3 +34,8 @@ npm run start:dev
 ```shell
 docker-compose up -d
 ```
+
+### CI/CD
+
+You can set up a GitHub Actions Workflow by copying the [ci.yml](https://github.com/schollsebastian/CI-Test-Bot/blob/main/.github/workflows/ci.yml)
+file into the `.github/workflows` directory of your repository.
