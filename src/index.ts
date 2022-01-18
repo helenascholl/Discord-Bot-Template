@@ -5,10 +5,9 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const commands = [{
-  name: 'ping',
-  description: 'Replies with Pong!'
-}];
+const commands = [
+  { name: 'ping', description: 'Replies with Pong!' }
+];
 const token = process.env['NODE_ENV'] === 'development' ?
   process.env['DISCORD_DEV_TOKEN']! :
   process.env['DISCORD_PROD_TOKEN']!;
