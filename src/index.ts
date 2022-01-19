@@ -17,10 +17,8 @@ const client = new Client({ intents: [ Intents.FLAGS.GUILDS ] });
 client.on('ready', client => {
   console.log(`Logged in as ${client.user.tag}`);
 
-  client.guilds.cache.forEach(guild => {
-    rest.put(Routes.applicationGuildCommands(client.user.id, guild.id), { body: commands })
-      .catch(console.error);
-  });
+  rest.put(Routes.applicationCommands(client.user.id), { body: commands })
+    .catch(console.error);
 });
 
 client.on('interactionCreate', interaction => {
