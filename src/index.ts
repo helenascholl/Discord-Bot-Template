@@ -23,7 +23,7 @@ client.on('ready', client => {
   });
 });
 
-client.on('interactionCreate', async interaction => {
+client.on('interactionCreate', interaction => {
   if (interaction.isCommand()) {
     switch (interaction.commandName) {
       case 'ping':
