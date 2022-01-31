@@ -18,7 +18,9 @@ while an instance is running, you should create a second bot and use it's token 
 ### Get your invite link
 
 To create an invite link for your bot, replace `[CLIENT ID]` in the link above with the Client ID of your Discord
-Application and `[PERMISSIONS]` with the generated integer.
+Application and `[PERMISSIONS]` with the generated integer. Alternatively, you can generate the link in the
+Discord Developer Portal at OAuth2 > URL Generator. Check the 'bot' scope and if you want to use slash commands,
+the 'applications.commands' as well.
 
 ### Start the Bot
 
