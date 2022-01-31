@@ -37,5 +37,5 @@ docker-compose up -d
 
 ### CI/CD
 
-You can set up a GitHub Actions Workflow by copying the [ci.yml](https://github.com/schollsebastian/CI-Test-Bot/blob/main/.github/workflows/ci.yml)
+You can set up a GitHub Actions Workflow by copying the [deploy.yml](https://github.com/schollsebastian/CI-Example-Bot/blob/main/.github/workflows/deploy.yml)
 file into the `.github/workflows` directory of your repository.
